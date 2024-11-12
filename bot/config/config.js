@@ -47,7 +47,7 @@ const settings = {
     ? process.env.USE_QUERY_ID.toLowerCase() === "true"
     : false,
 
-  CAN_CREATE_SESSION: false,
+  CAN_CREATE_SESSION: true,
 };
 
 module.exports = settings;
